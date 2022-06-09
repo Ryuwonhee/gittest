@@ -8,4 +8,7 @@ public class FunctionalTest {
 		public String getGoodee() {
 			return "goodee";
 		}
+		public void conflict() {
+			System.out.println("충동충동!");
+		}
 }
